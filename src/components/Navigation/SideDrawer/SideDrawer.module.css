@@ -1,0 +1,27 @@
+.side-drawer {
+  background-color: #fff;
+  padding: 32px 16px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 280px;
+  max-width: 70%;
+  height: 100%;
+  transition: transform 0.3s ease-out;
+  z-index: 200;
+}
+
+.side-drawer--open {
+  transform: translateX(0);
+}
+
+.side-drawer--close {
+  transform: translateX(-100%);
+}
+
+.logo {
+  height: 11%;
+  margin-bottom: 32px;
+}

@@ -1,0 +1,24 @@
+.button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+  margin: 10px;
+  outline: none;
+  padding: 10px;
+}
+
+.button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.button--success {
+  color: #5C9210;
+}
+
+.button--danger {
+  color: #944317;
+}

@@ -1,0 +1,45 @@
+.nav__item {
+  display: block;
+
+  margin: 10px 0;
+  width: 100%;
+}
+
+.nav__link {
+  color: #8f5c2c;
+  
+  display: block;
+  
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav__link:hover,
+.nav__link:active,
+.nav__link--active {
+  color: #40a4c8;
+}
+
+@media only screen and (min-width: 500px) {
+  .nav__item {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    width: auto;
+    margin: 0;
+  }
+  .nav__link {
+    border-bottom: 4px solid transparent;
+    color: #fff;
+    height: 100%;
+    padding: 16px 10px;
+  }
+  .nav__link:hover,
+  .nav__link:active,
+  .nav__link--active {
+    background-color: #8f5c2c;
+    border-bottom: 4px solid #40a4c8;
+    color: #fff;
+  }
+}

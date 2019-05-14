@@ -1,0 +1,22 @@
+.nav {
+  height: 100%;
+}
+
+.nav__items {
+  
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  height: 100%;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .nav__items {
+    flex-flow: row;
+  }
+}
