@@ -7,7 +7,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const app = (
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/burger">
     <App />
   </BrowserRouter>
 );
