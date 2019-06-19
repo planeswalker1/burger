@@ -1,14 +1,17 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import classes from './NavigationItem.module.css';
 
 const navigationItem = props => (
   <li className={classes.nav__item}>
-    <a
-      href={props.link}
-      className={[classes.nav__link, props.active ? classes['nav__link--active'] : null].join(' ')}>
+    <NavLink
+      to={props.link}
+      exact={props.exact}
+      className={classes.nav__link}
+      activeClassName={classes['nav__link--active']}>
       {props.children}
-    </a>
+    </NavLink>
   </li>
 );
 
