@@ -19,6 +19,11 @@
   padding: 6px 10px;
 }
 
+.input--invalid {
+   border: 1px solid red;
+   background-color: #FDA49A;
+}
+
 .input:focus {
   background-color: #ccc;
   outline: none;
