@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5f21a6dad375e255470f773c5c4da09",
+    "revision": "bfe75ecc5eaa886efde513b692213e94",
     "url": "/burger/index.html"
   },
   {
-    "revision": "f6fa6b90b40e34ec6752",
+    "revision": "b5f7eaf57b3709ca73ab",
     "url": "/burger/static/css/main.c30883f5.chunk.css"
   },
   {
-    "revision": "9f7f0c0dde45896caa76",
-    "url": "/burger/static/js/2.769031f7.chunk.js"
+    "revision": "9a57f663ae7f7488c770",
+    "url": "/burger/static/js/2.8066807a.chunk.js"
   },
   {
-    "revision": "f6fa6b90b40e34ec6752",
-    "url": "/burger/static/js/main.f9886860.chunk.js"
+    "revision": "b5f7eaf57b3709ca73ab",
+    "url": "/burger/static/js/main.f5b8abf7.chunk.js"
   },
   {
     "revision": "5ae864a761ffe3b0b200",
