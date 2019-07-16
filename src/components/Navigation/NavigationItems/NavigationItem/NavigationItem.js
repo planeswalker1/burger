@@ -9,7 +9,8 @@ const navigationItem = props => (
       to={props.link}
       exact={props.exact}
       className={classes.nav__link}
-      activeClassName={classes['nav__link--active']}>
+      activeClassName={classes['nav__link--active']}
+      onClick={props.sideDrawerCloseHandler} >
       {props.children}
     </NavLink>
   </li>

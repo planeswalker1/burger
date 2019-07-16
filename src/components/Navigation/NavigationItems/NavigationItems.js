@@ -5,18 +5,29 @@ import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = props => {
   let navigationLinkAuth = (
-  <NavigationItem link='/auth'>Authenticate</NavigationItem>
+    <NavigationItem 
+      link='/auth'
+      sideDrawerCloseHandler={props.sideDrawerCloseHandler}>Authenticate</NavigationItem>
   );
   if (props.isAuthenticated) {
     navigationLinkAuth = (
-      <NavigationItem link='/logout'>Logout</NavigationItem>
+      <React.Fragment>
+        <NavigationItem
+          link='/orders'
+          sideDrawerCloseHandler={props.sideDrawerCloseHandler}>Orders</NavigationItem>
+        <NavigationItem
+          link='/logout'
+          sideDrawerCloseHandler={props.sideDrawerCloseHandler}>Logout</NavigationItem>
+      </React.Fragment>
     );
   }
   return (
     <nav className={classes.nav}>
       <ul className={classes.nav__items}>
-        <NavigationItem link='/' exact>Burger Builder</NavigationItem>
-        <NavigationItem link='/orders'>Orders</NavigationItem>
+        <NavigationItem
+          link='/'
+          exact
+          sideDrawerCloseHandler={props.sideDrawerCloseHandler}>Burger Builder</NavigationItem>
         {navigationLinkAuth}
       </ul>
     </nav>

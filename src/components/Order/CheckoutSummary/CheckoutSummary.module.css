@@ -3,9 +3,3 @@
   width: 80%;
   margin: auto;
 }
-
-@media only screen and (min-widht: 600px) {
-  .checkout-summary {
-    width: 500px;
-  }
-}
