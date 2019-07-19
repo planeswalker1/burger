@@ -1,0 +1,1 @@
+{"version":3,"sources":["Order.module.css"],"names":[],"mappings":"AAAA,oBACE,qBAAsB,CACtB,yBAA0B,CAC1B,gBAAiB,CACjB,YAAa,CACb,SACF","file":"5.62a941d4.chunk.css","sourcesContent":[".order {\r\n  border: 1px solid #eee;\r\n  box-shadow: 0 2px 3px #ccc;\r\n  margin: 10px auto;\r\n  padding: 10px;\r\n  width: 80%;\r\n}"]}
